@@ -7,6 +7,7 @@ Part01_C언어의 기본
   ● Chapter03_변수와 연산자
   ● Chapter04_데이터 표현방식의 이해
   ● Chapter05_상수와 기본 자료형
+  ● Chapter06_printf 함수와 scanf 함수 정리하기
   
 Part02_포인터 배결의 시작
 

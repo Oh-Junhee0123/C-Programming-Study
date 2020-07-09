@@ -1,7 +1,7 @@
 # C-Programming-Study
 <br>
 
-## Part01_C언어의 기본
+## >Part01_C언어의 기본
 <ul>
   <li>Chapter01_이것이 C언어다</li>
   <li> Chapter02_프로그램의 기본구성</li>

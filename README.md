@@ -10,6 +10,7 @@
   <li> Chapter06_printf 함수와 scanf 함수 정리하기</li>
   <li> Chapter07_반복실행을 명령하는 반복문</li>
   <li> Chapter08_조건에 따른 흐름의 분기</li>
+  <li> Chapter09_C언어의 핵심! 함수!</li>
 </ul>
 
 ### Part02_포인터와 배열의 시작

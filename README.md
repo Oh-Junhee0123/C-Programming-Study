@@ -32,7 +32,7 @@
   * (void) : 입력형태
 <pre>
 <code>
-int main(void)
+int main(void) //출력의 형태가 int이고 입력의 형태가 void인 main이라는 이름의 함수
 </code>
 </pre>
  

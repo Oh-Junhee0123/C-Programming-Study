@@ -1,7 +1,5 @@
-<p>
-<h1 align = "center">C-Programming-Study
-C Programming Study(Review)</h1>
-</p>
+<h1 align = "center">C-Programming-Study<br>C Programming Study(Review)</h1>
+<br>
 
 > ## Part01_C언어의 기본
 <ul>

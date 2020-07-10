@@ -282,6 +282,43 @@ num >> 2; //피연산자의 비트 열을 오른쪽으로 이동시킨다.
 </pre>
 
 ### Chapter05_상수와 기본 자료형
+* 자료형
+  * 데이터를 표현하는 방법이다.
+* 기본 자료형의 종류
+  * 정수형
+    * char : 1바이트
+    * short : 2바이트
+    * int : 4바이트
+    * long : 4바이트
+    * long long : 8바이트
+  * 실수형
+    * float : 4바이트
+    * double : 8바이트
+    * long double : 8바이트 이상
+* sizeof 연산자
+  * 자료형의 크기를 확인할 수 있다.
+<pre>
+<code>
+int main(void)
+{
+ int num = 10;
+ int sz1 = sizeof(num);
+ int sz2 = sizeof(int);
+}
+</code>
+</pre>
+
+* 형 변환 연산자
+<pre>
+<code>
+int main(void)
+{
+ int num1 = 3;
+ double num2 = 2.5 * (double)num1;
+}
+</code>
+</pre>
+
 ### Chapter06_printf 함수와 scanf 함수 정리하기
 ### Chapter07_반복실행을 명령하는 반복문
 ### Chapter08_조건에 따른 흐름의 분기

@@ -327,6 +327,50 @@ int main(void)
   * printf 함수는 출력에 사용되지만, scanf 함수는 입력에 사용된다.
   
 ### Chapter07_반복실행을 명령하는 반복문
+* 반복문
+  * while문
+  * do~while문
+  * for문 
+* while문
+  * 특정조건을 주고 그 조건을 만족하는 동안, 특정영역을 계속해서 반복하는 구조이다.
+<pre>
+<code>
+while(num<3) //반복의 조건은 num < 3
+{
+ printf("Hello world! \n");
+ num++;
+}
+</code>
+</pre>
+
+* do~while문
+  * while문과 달리 반복조건을 뒷부분에서 검사한다.
+<pre>
+<code>
+do
+{
+ printf("Hello world! \n");
+ num++;
+}
+while(num < 3);
+</code>
+</pre>
+
+* for문
+  * 반복문 중에서 가장 많이 사용된다.
+  * 반복을 위한 변수의 선언과 반복조건을 거짓으로 만들기 위한 값의 증가 및 감소연산 등을 한데 묶을 수 있도록 만들어진 반복문이다.
+<pre>
+<code>
+int main(void)
+{
+ for(int num = 0; num < 3; num++)
+ {
+  printf("Hi~");
+ }
+}
+</code>
+</pre>
+
 ### Chapter08_조건에 따른 흐름의 분기
 ### Chapter09_C언어의 핵심! 함수!
 <br>

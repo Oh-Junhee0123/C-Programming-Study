@@ -107,56 +107,56 @@ int main(void)
 * 대입 연산자
 <pre>
 <code>
-num = 20;
+num = 20; //연산자 오른쪽에 있는 값을 연산자 왼쪽에 있는 변수에 대입한다.
 </code>
 </pre>
 
 <pre>
 <code>
-num = 4 + 3;
+num = 4 + 3; //두 피연산자의 값을 더한다.
 </code>
 </pre>
 
 <pre>
 <code>
-num = 4 - 3;
+num = 4 - 3; //왼쪽의 피연산자 값에서 오른쪽의 피연산자 값을 뺀다.
 </code>
 </pre>
 
 <pre>
 <code>
-num = 7 / 3;
+num = 7 / 3; //왼쪽의 피연산자 값을 오른쪽의 피연산자 값으로 나눈다.
 </code>
 </pre>
 
 <pre>
 <code>
-num = 7 % 3;
+num = 7 % 3; //왼쪽의 피연산자 값을 오른쪽의 피연산자 값으로 나눴을 때 얻게 되는 나머지를 반환한다.
 </code>
 </pre>
 
 * 증가, 감소 연산자
 <pre>
 <code>
-val = ++num;
+val = ++num; //값을 1 증가 후, 속한 문장의 나머지를 진행(선 증가, 후 연산)
 </code>
 </pre>
 
 <pre>
 <code>
-val = num++;
+val = num++; //속한 문장을 먼저 진행한 후, 값을 1 증가(선 연산, 후 증가)
 </code>
 </pre>
 
 <pre>
 <code>
-val = --num;
+val = --num; //값을 1 감소 후, 속한 문장의 나머지를 진행(선 감소, 후 연산)
 </code>
 </pre>
 
 <pre>
 <code>
-val = num--;
+val = num--; //속한 문장을 먼저 진행한 후, 값을 1 감소(선 연산, 후 감소)
 </code>
 </pre>
 
@@ -164,56 +164,56 @@ val = num--;
   * 조건을 만족하면 1을, 만족하지 않으면 0을 반환한다.
 <pre>
 <code>
-n1 < n2
+n1 < n2 //n1이 n2보다 작은가?
 </code>
 </pre>
 
 <pre>
 <code>
-n1 > n2
+n1 > n2 //n1이 n2보다 큰가?
 </code>
 </pre>
 
 <pre>
 <code>
-n1 == n2
+n1 == n2 //n1과 n2가 같은가?
 </code>
 </pre>
 
 <pre>
 <code>
-n1 != n2
+n1 != n2 //n1과 n2가 다른가?
 </code>
 </pre>
 
 <pre>
 <code>
-n1 <= n2
+n1 <= n2 //n1이 n2보다 같거나 작은가?
 </code>
 </pre>
 
 <pre>
 <code>
-n1 >= n2
+n1 >= n2 //n1이 n2보다 같거나 큰가?
 </code>
 </pre>
 
 * 논리 
 <pre>
 <code>
-A && B
+A && B //A와 B 모두 '참'이면 연산결과로 '참'을 반환(논리 AND)
 </code>
 </pre>
 
 <pre>
 <code>
-A || B
+A || B //A와 B 둘 중 하나라도 '참'이면 연산결과로 '참'을 반환(논리 OR) 
 </code>
 </pre>
 
 <pre>
 <code>
-!A
+!A //A가 '참'이면 '거짓', A가 '거짓'이면 '참'을 반환(논리 NOT)
 </code>
 </pre>
 

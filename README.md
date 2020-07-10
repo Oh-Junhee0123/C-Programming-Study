@@ -48,6 +48,7 @@ int main(void)
 </code>
 </pre>
 
+* 함수 내에 존재하는 문장의 끝에는 세미콜론 문자(;)를 붙여준다.
 <pre>
 <code>
 int main(void)

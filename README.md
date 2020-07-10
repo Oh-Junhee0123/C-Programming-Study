@@ -64,7 +64,7 @@ int main(void)
   * 헤더파일의 선언은 소스파일의 맨 앞부분, main 함수 정의 이전에 와야 한다.
 <pre>
 <code>
-#include <stdio.h>
+#include<stdio.h>
 </pre>
 </code>
 ### Chapter03_변수와 연산자

@@ -35,7 +35,29 @@
 int main(void) //출력의 형태가 int이고 입력의 형태가 void인 main이라는 이름의 함수
 </code>
 </pre>
- 
+* 함수는 기능을 지녀야 한다.
+  * 3x + 4라는 함수도 '입력 값에 3을 곱하고 결과에 4를 더한다.' 라는 기능을 지니고 있다. 그리고 C언어에서 그 기능을 중괄호 안에 표현이 된다.
+* 함수의 몸체(body)
+  * 함수의 기능을 정의하고 있는 영역을 가리켜 '함수의 몸체(body)' 라고 한다.
+<pre>
+<code>
+int main(void)
+{
+ //함수의 몸체
+}
+</code>
+</pre>
+
+<pre>
+<code>
+int main(void)
+{
+ printf("Hello world! \n");
+ return 0;
+}
+</code>
+</pre>
+
 ### Chapter03_변수와 연산자
 ### Chapter04_데이터 표현방식의 이해
 ### Chapter05_상수와 기본 자료형

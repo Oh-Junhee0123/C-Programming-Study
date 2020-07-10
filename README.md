@@ -324,7 +324,7 @@ int main(void)
   * 문자열을 출력하는 함수이다.
 * scanf 함수
   * scanf 함수는 printf 함수의 상대적인 기능을 지닌다.
-  * printf 함수는 출력에 사용되지만, scnaf 함수는 입력에 사용된다.
+  * printf 함수는 출력에 사용되지만, scanf 함수는 입력에 사용된다.
   
 ### Chapter07_반복실행을 명령하는 반복문
 ### Chapter08_조건에 따른 흐름의 분기

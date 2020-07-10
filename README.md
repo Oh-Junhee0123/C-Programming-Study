@@ -1,4 +1,4 @@
-# C-Programming-Study
+<h1 align = "center">C-Programming-Study</h1>
 <br>
 
 > ## Part01_C언어의 기본

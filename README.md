@@ -59,6 +59,14 @@ int main(void)
 </code>
 </pre>
 
+* 헤더파일 선언
+  * stdio.h에는 printf 함수의 호출에 필요한 정보가 존재한다.
+  * 헤더파일의 선언은 소스파일의 맨 앞부분, main 함수 정의 이전에 와야 한다.
+<pre>
+<code>
+#include <stdio.h>
+</pre>
+</code>
 ### Chapter03_변수와 연산자
 ### Chapter04_데이터 표현방식의 이해
 ### Chapter05_상수와 기본 자료형

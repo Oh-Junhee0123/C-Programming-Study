@@ -103,16 +103,6 @@ int main(void)
 </pre>
 
 * 변수를 선언만 하고 초기화하지 않으면 쓰레기 값이 저장된다.
-* + 연산자
-<pre>
-<code>
-int main(void)
-{
- 3 + 4; //3과 4의 합을 명령
- return 0;
-}
-</code>
-</pre>
 
 * 대입 연산자
 <pre>

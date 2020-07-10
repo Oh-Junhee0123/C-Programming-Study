@@ -75,7 +75,5 @@ int main(void)
 ### Chapter09_C언어의 핵심! 함수!
 
 > ## Part02_포인터와 배열의 시작
-<ul>
-  <li>Chapter11_1차원 배열</li>
-  <li>Chapter12_포인터의 이해</li>
-</ul>
+### Chapter11_1차원 배열
+### Chapter12_포인터의 이해

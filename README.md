@@ -67,6 +67,169 @@ int main(void)
   * 현재 실행중인 함수의 종료
   
 ### Chapter03_변수와 연산자
+* 변수
+  * 값을 저장할 수 있는 메모리 공간에 붙은 이름, 혹은 메모리 공간 자체를 가리켜 변수라 한다.
+  * int : 정수의 저장이 가능한 메모리 공간을 할당한다.
+  * num : 메모리 공간의 이름을 num이라고 한다.
+<pre>
+<code>
+int main(void)
+{
+ int num; //num이라는 이름의 변수 선언 
+}
+</code>
+</pre>
+
+<pre>
+<code>
+int main(void)
+{
+ int num; //num이라는 이름의 변수선언
+ num = 20; //변수 num에 20 저장
+ printf("%d", num); //변수 num의 값 참조
+}
+</code>
+</pre>
+
+* 선언과 동시에 초기화
+<pre>
+<code>
+int main(void)
+{
+ int num1, num2;
+ int num3 = 30, num4 = 40;
+}
+</code>
+</pre>
+
+* 변수를 선언만 하고 초기화하지 않으면 쓰레기 값이 저장된다.
+* + 연산자
+<pre>
+<code>
+int main(void)
+{
+ 3 + 4; //3과 4의 합을 명령
+ return 0;
+}
+</code>
+</pre>
+
+* 대입 연산자
+<pre>
+<code>
+num = 20;
+</code>
+</pre>
+
+<pre>
+<code>
+num = 4 + 3;
+</code>
+</pre>
+
+<pre>
+<code>
+num = 4 - 3;
+</code>
+</pre>
+
+<pre>
+<code>
+num = 7 / 3;
+</code>
+</pre>
+
+<pre>
+<code>
+num = 7 % 3;
+</code>
+</pre>
+
+* 증가, 감소 연산자
+<pre>
+<code>
+val = ++num;
+</code>
+</pre>
+
+<pre>
+<code>
+val = num++;
+</code>
+</pre>
+
+<pre>
+<code>
+val = --num;
+</code>
+</pre>
+
+<pre>
+<code>
+val = num--;
+</code>
+</pre>
+
+* 조건 연산자
+  * 조건을 만족하면 1을, 만족하지 않으면 0을 반환한다.
+<pre>
+<code>
+n1 < n2
+</code>
+</pre>
+
+<pre>
+<code>
+n1 > n2
+</code>
+</pre>
+
+<pre>
+<code>
+n1 == n2
+</code>
+</pre>
+
+<pre>
+<code>
+n1 != n2
+</code>
+</pre>
+
+<pre>
+<code>
+n1 <= n2
+</code>
+</pre>
+
+<pre>
+<code>
+n1 >= n2
+</code>
+</pre>
+
+* 논리 
+<pre>
+<code>
+A && B
+</code>
+</pre>
+
+<pre>
+<code>
+A || B
+</code>
+</pre>
+
+<pre>
+<code>
+!A
+</code>
+</pre>
+
+* 콤마 연산자
+  * 둘 이상의 변수를 동시에 선언하거나, 둘 이상의 문장을 한 행에 삽입하는 경우에 사용되는 연산자이다.
+
 ### Chapter04_데이터 표현방식의 이해
 ### Chapter05_상수와 기본 자료형
 ### Chapter06_printf 함수와 scanf 함수 정리하기

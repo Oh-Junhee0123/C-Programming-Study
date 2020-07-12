@@ -372,6 +372,36 @@ int main(void)
 </pre>
 
 ### Chapter08_조건에 따른 흐름의 분기
+* if문을 이용한 조건적 실행
+<pre>
+<code>
+if(num1 > num2) //num1이 num2보다 크다면 실행한다.
+{
+ printf("num1이 num2보다 큽니다. \n");
+ printf("%d > %d \n", num1, num2);
+}
+</code>
+</pre>
+
+* if ~else문을 이용한 흐름의 분기
+<pre>
+<code>
+if(num1>num2)
+{ // if 블록
+ printf("num1이 num2보다 큽니다. \n");
+ printf("%d > %d \n", num1, num2);
+}
+else //num1>num2이 '거짓'이면 아래의 else 블록을 실행한다.
+{ // else 블록
+ printf("num1이 num2보다 크지 않습니다. \n");
+ printf("%d <= %d \n", num1, num2);
+}
+</code>
+</pre>
+
+* 반복문의 탈출
+  * break문을 사용한다.
+  
 ### Chapter09_C언어의 핵심! 함수!
 <br>
 
